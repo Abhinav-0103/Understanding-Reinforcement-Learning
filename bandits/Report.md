@@ -1,6 +1,6 @@
 # Multi-Armed Bandit Algorithms: Final Comparison Report
 
-This report summarizes the empirical performance of three multi-armed bandit algorithms — **Epsilon-Greedy**, **UCB (Upper Confidence Bound)**, and **Gaussian Thompson Sampling** — evaluated over 2,500 steps and 2,000 independent runs in a 10-armed Gaussian bandit setting.
+This report summarizes the empirical performance of three multi-armed bandit algorithms — **Epsilon-Greedy**, **UCB (Upper Confidence Bound)**, and **Gaussian Thompson Sampling** — evaluated over 3,000 steps and 3,000 independent runs in a 10-armed Gaussian bandit setting.
 
 ---
 
@@ -17,7 +17,7 @@ This report summarizes the empirical performance of three multi-armed bandit alg
 ### 📈 UCB Agent
 
 - Performs well across a range of steps.
-- **Lower `c` values** (e.g., 2) tend to result in stable and efficient learning.
+- **Lower `c` values** (e.g., 1) tend to result in stable and efficient learning.
 - **Higher `c` values** (e.g., 100) introduce instability and over-exploration.
 - The agent plateaus early in terms of average reward and reliably converges to the optimal action.
 
@@ -46,9 +46,9 @@ This report summarizes the empirical performance of three multi-armed bandit alg
 
 ## 🖼️ Final Comparison Plots
 
-![Final Comparison of Average Reward and % Optimal Action](bandits/Final-Comparison - 3000 runs.png)
+![Final Comparison of Average Reward and % Optimal Action](<Final-Comparison - 3000 runs.png>)
 
-> _Figure: Comparison of average reward and % optimal action across Epsilon-Greedy, UCB (c=2), and Gaussian Thompson Sampling over 2500 steps and 2000 runs._
+> _Figure: Comparison of average reward and % optimal action across Epsilon-Greedy, UCB and Gaussian Thompson Sampling over 3000 steps and 3000 runs._
 
 ---
 

@@ -1,6 +1,6 @@
 # Multi-Armed Bandit Algorithms: Final Comparison Report
 
-This report summarizes the empirical performance of three multi-armed bandit algorithms — **Epsilon-Greedy**, **UCB (Upper Confidence Bound)**, and **Gaussian Thompson Sampling** — evaluated over 3,000 steps and 3,000 independent runs in a 10-armed Gaussian bandit setting.
+This report summarizes the empirical performance of three multi-armed bandit algorithms — **Epsilon-Greedy**, **UCB (Upper Confidence Bound)**, and **Gaussian Thompson Sampling** — evaluated over 3,000 steps and 3,000 independent runs in a 20-armed Gaussian bandit setting.
 
 ---
 

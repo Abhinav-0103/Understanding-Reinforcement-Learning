@@ -1,4 +1,5 @@
 import numpy as np
+from collections import defaultdict
 
 def first_visit_mc(env, policy, episodes=5000, gamma=0.9) :
     returns = defaultdict(list)
